@@ -12,7 +12,7 @@ metadata:
     - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: b2bi-prod
+    namespace: services
     server: 'https://kubernetes.default.svc'
   project: services
   source:
