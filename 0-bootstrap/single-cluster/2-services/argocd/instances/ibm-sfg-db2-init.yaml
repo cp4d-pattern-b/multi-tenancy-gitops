@@ -17,7 +17,7 @@ spec:
   project: services
   source:
     path: instances/ibm-sfg-db2-init
-    repoURL: https://github.com/pwharned/multi-tenancy-gitops-services.git
+    repoURL: https://github.com/cp4d-pattern-b/multi-tenancy-gitops-services.git
   syncPolicy:
     automated:
       prune: true
